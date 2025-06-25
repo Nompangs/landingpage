@@ -572,6 +572,27 @@ footer {
   }
   .features-section {
     padding: 1rem 0.5rem 0 0.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .features-left {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .features-right {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .features-iphone-mockup {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .features-title {
     font-size: 2rem;
